@@ -117,3 +117,62 @@ nav li {
 .sponsors-logo img {
     max-width: 5%;
 }
+
+/* Main Styles */
+main .section-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: var(--section-title-color-pri);
+}
+
+main .item-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+}
+
+main .item-card {
+    max-width: 329px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    
+  
+}
+
+.item-card img {
+    max-width: 90%;
+    /* margin: 4% 5%; */
+}
+
+.item-card img, .item-card h2, .item-card p {
+    margin: 4% 5%;
+}
+
+.item-card .item-name {
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #18191F;
+}
+
+.item-card .item-price {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.item-card .item-rating{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #5E6366;
+}
+
+
+.item-card .item-desc {
+    font-weight: bold;
+    color: #787885;
+    font-size: 0.8rem;
+    max-width: 60%;
+}
